@@ -1,0 +1,55 @@
+#click-div {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italicized {
+  font-style: italic;
+}
+
+.colored {
+  color: red;
+}
+
+.task2 {
+  height: 50px;
+  width: 50px;
+}
+
+#block {
+  background-color: yellow;
+  display: block;
+}
+
+#inline {
+  background-color: blue;
+  display: inline;
+}
+
+#flex {
+  background-color: red;
+  display: flex;
+}
+
+#inline-block {
+  background-color: green;
+  display: inline-block
+}
+
+@media only screen and (max-width: 300px) {
+  .flexible-font {
+      font-size: 12px;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .flexible-font {
+      font-size: 48px;
+  }
+}
